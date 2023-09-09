@@ -2,6 +2,8 @@ import Navegacao from "./components/Navbar";
 import Titulo from "./components/Titulo";
 import Subtitulo from "./components/Subtitulo";
 import Texto from "./components/Texto";
+import CampoCinza from "./components/CampoCinza";
+
 
 export default function Home() {
   return (
@@ -13,6 +15,9 @@ export default function Home() {
       {/* <Texto name="Altura do veículo(metros):" />
       <Texto name="Tipo de Carga:" />
       <Texto name="Peso da carga(kg):" /> */}
+      <CampoCinza />
+      <CampoCinza />
+      <CampoCinza />
     </main>
   );
 }
