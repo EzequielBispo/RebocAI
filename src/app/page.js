@@ -4,6 +4,7 @@ import Subtitulo from "./components/Subtitulo";
 import Texto from "./components/Texto";
 import CampoCinza from "./components/CampoCinza";
 import CampoTextoPreenchido from "./components/CampoTextoPreenchido";
+import Botao from "./components/Botao";
 
 
 export default function Home() {
@@ -24,6 +25,12 @@ export default function Home() {
       <CampoCinza />
       <Texto name="Endereço Sinistro" /> 
       <CampoTextoPreenchido name="Rua/Avenida/Etc:" />
+      <CampoTextoPreenchido name="Número:" />
+      <CampoTextoPreenchido name="Complemento:" />
+      <CampoCinza />
+      <CampoCinza />
+      <CampoCinza />
+      <Botao name="próximo" />
     </main>
   );
 }
