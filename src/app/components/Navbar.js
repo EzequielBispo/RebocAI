@@ -12,12 +12,12 @@ function Navbar() {
   return (
     <>
       <Navegacao>
-        <Botao src="/menu-aberto1.png" width={30} height={30} style={{position: "relative", bottom: "6vh", left: "1vw"}}/>
+        <Botao src="/menu-aberto1.png" width={30} height={30} style={{position: "relative", bottom: "6vh", left: "10px"}}/>
         <Logo
           src="/logo.png"
           width={75}
           height={75}
-          style={{ position: "relative", left: "50%", transform: "translateX(-50%)"}}
+          style={{ position: "relative", left: "125px"}}
           alt="logo"
         />
       </Navegacao>
