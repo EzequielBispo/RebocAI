@@ -3,18 +3,18 @@
 import styled from "styled-components";
 
 const Button = styled.button`
-
-`;
-
-const Texto = styled.p`
-
-
+  width: 140px;
+  height: 33px;
+  color: #0092dd;
+  text-transform: uppercase;
+  background: rgba(217, 217, 217, 0.63);
+  border-radius: 5px;
 `;
 
 function Botao(props) {
   return (
     <>
-      <Button className={Texto}>{props.name}</Button>
+      <Button>{props.name}</Button>
     </>
   );
 }
