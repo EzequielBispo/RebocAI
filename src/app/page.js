@@ -3,6 +3,7 @@ import Titulo from "./components/Titulo";
 import Subtitulo from "./components/Subtitulo";
 import Texto from "./components/Texto";
 import CampoCinza from "./components/CampoCinza";
+import CampoTextoPreenchido from "./components/CampoTextoPreenchido";
 
 
 export default function Home() {
@@ -22,6 +23,7 @@ export default function Home() {
       <Texto name="Tipo do sinistro:" />
       <CampoCinza />
       <Texto name="Endereço Sinistro" /> 
+      <CampoTextoPreenchido name="Rua/Avenida/Etc:" />
     </main>
   );
 }
