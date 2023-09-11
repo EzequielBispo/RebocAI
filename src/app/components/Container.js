@@ -7,9 +7,9 @@ display: inline-flex;
 align-items: center;
 `;
 
-function FunContainer() {
+function FunContainer(children) {
     return (
-        <Container></Container>
+        <Container>{children}</Container>
     )
 }
 
