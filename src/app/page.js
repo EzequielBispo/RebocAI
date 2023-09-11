@@ -12,12 +12,16 @@ export default function Home() {
       <Titulo name="Abrir ordem de serviço" />
       <Subtitulo name="Informações do Veículo" />
       <Texto name="Placa do caminhão:" />
-      {/* <Texto name="Altura do veículo(metros):" />
+      <Texto name="Altura do veículo(metros):" />
       <Texto name="Tipo de Carga:" />
-      <Texto name="Peso da carga(kg):" /> */}
+      <Texto name="Peso da carga(kg):" /> 
       <CampoCinza />
       <CampoCinza />
       <CampoCinza />
+      <Subtitulo name="Informações do Sinistro" />
+      <Texto name="Tipo do sinistro:" />
+      <CampoCinza />
+      <Texto name="Endereço Sinistro" /> 
     </main>
   );
 }
