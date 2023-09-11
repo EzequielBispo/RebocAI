@@ -8,6 +8,8 @@ import Titulo from './components/Titulo'
 export default function Home() {
   return (
     <main>
+      <Titulo name="Abrir ordem de serviço" />
+      <Subtitulo name="Informações do Caminhão" />
       <Texto name="Placa do caminhão:" />
       <CampoCinza />
       <Texto name="Altura do veículo(metros):" />
