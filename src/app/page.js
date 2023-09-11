@@ -3,6 +3,7 @@ import CampoTextoPreenchido from "./components/CampoTextoPreenchido";
 import Botao from "./components/Botao";
 import Subtitulo from './components/Subtitulo'
 import Texto from "./components/Texto";
+import Titulo from './components/Titulo'
 
 export default function Home() {
   return (
