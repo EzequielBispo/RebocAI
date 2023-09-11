@@ -1,7 +1,3 @@
-import Navegacao from "./components/Navbar";
-import Titulo from "./components/Titulo";
-import Subtitulo from "./components/Subtitulo";
-import Texto from "./components/Texto";
 import CampoCinza from "./components/CampoCinza";
 import CampoTextoPreenchido from "./components/CampoTextoPreenchido";
 import Botao from "./components/Botao";
