@@ -6,7 +6,7 @@ import Botao from "next/image";
 
 const Navegacao = styled.nav`
   width: 100%;
-  height: 37px;
+  height: 38px;
   background-color: #00B2E5;
 `;
 
