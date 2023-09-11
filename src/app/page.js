@@ -1,9 +1,9 @@
-import Texto from "./components/Texto";
+import Container from "./components/Container";
 
 export default function Home() {
   return (
     <main>
-      <Texto name="Placa do caminhão:" />
+      <Container />
     </main>
   );
 }
