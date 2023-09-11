@@ -6,7 +6,6 @@ import CampoCinza from "./components/CampoCinza";
 import CampoTextoPreenchido from "./components/CampoTextoPreenchido";
 import Botao from "./components/Botao";
 
-
 export default function Home() {
   return (
     <main>
@@ -14,21 +13,22 @@ export default function Home() {
       <Titulo name="Abrir ordem de serviço" />
       <Subtitulo name="Informações do Veículo" />
       <Texto name="Placa do caminhão:" />
+      <CampoCinza />
       <Texto name="Altura do veículo(metros):" />
+      <CampoCinza />
       <Texto name="Tipo de Carga:" />
-      <Texto name="Peso da carga(kg):" /> 
       <CampoCinza />
-      <CampoCinza />
+      <Texto name="Peso da carga(kg):" />
       <CampoCinza />
       <Subtitulo name="Informações do Sinistro" />
       <Texto name="Tipo do sinistro:" />
       <CampoCinza />
-      <Texto name="Endereço Sinistro" /> 
+      <Texto name="Endereço Sinistro" />
       <CampoTextoPreenchido name="Rua/Avenida/Etc:" />
+      <CampoCinza />
       <CampoTextoPreenchido name="Número:" />
+      <CampoCinza />
       <CampoTextoPreenchido name="Complemento:" />
-      <CampoCinza />
-      <CampoCinza />
       <CampoCinza />
       <Botao name="próximo" />
     </main>
