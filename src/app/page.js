@@ -2,13 +2,11 @@ import CampoCinza from "./components/CampoCinza";
 import CampoTextoPreenchido from "./components/CampoTextoPreenchido";
 import Botao from "./components/Botao";
 import Subtitulo from './components/Subtitulo'
+import Texto from "./components/Texto";
 
 export default function Home() {
   return (
     <main>
-      <Navegacao />
-      <Titulo name="Abrir ordem de serviço" />
-      <Subtitulo name="Informações do Veículo" />
       <Texto name="Placa do caminhão:" />
       <CampoCinza />
       <Texto name="Altura do veículo(metros):" />
