@@ -1,10 +1,6 @@
-<<<<<<< HEAD
 import CampoCinza from "./components/CampoCinza";
 import CampoTextoPreenchido from "./components/CampoTextoPreenchido";
 import Botao from "./components/Botao";
-=======
-import CampoTextoPreenchido from './components/CampoTextoPreenchido'
->>>>>>> CampoTextoPreenchido
 
 export default function Home() {
   return (
