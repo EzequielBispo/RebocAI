@@ -1,13 +1,15 @@
 import CampoCinza from "./components/CampoCinza";
 import CampoTextoPreenchido from "./components/CampoTextoPreenchido";
 import Botao from "./components/Botao";
-import Subtitulo from './components/Subtitulo'
+import Subtitulo from './components/Subtitulo';
 import Texto from "./components/Texto";
-import Titulo from './components/Titulo'
+import Titulo from './components/Titulo';
+import Navegacao from './components/Navbar';
 
 export default function Home() {
   return (
     <main>
+      <Navegacao />
       <Titulo name="Abrir ordem de serviço" />
       <Subtitulo name="Informações do Caminhão" />
       <Texto name="Placa do caminhão:" />
@@ -23,11 +25,8 @@ export default function Home() {
       <CampoCinza />
       <Texto name="Endereço Sinistro" />
       <CampoTextoPreenchido name="Rua/Avenida/Etc:" />
-      <CampoCinza />
       <CampoTextoPreenchido name="Número:" />
-      <CampoCinza />
       <CampoTextoPreenchido name="Complemento:" />
-      <CampoCinza />
       <Botao name="próximo" />
     </main>
   );
