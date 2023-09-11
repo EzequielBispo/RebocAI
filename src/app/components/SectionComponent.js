@@ -33,7 +33,7 @@ export default function Home() {
         <CampoCinza />
       </Container>
       <Texto name="Endereço Sinistro" />
-      <CampoTextoPreenchido name="Rua/Avenida/Etc:" />
+      <CampoTextoPreenchido name="Rua/Avenida/Etc:"/>
       <CampoTextoPreenchido name="Número:" />
       <CampoTextoPreenchido name="Complemento:" />
       <Botao name="próximo" />
