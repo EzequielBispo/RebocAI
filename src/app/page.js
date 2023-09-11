@@ -1,10 +1,9 @@
-import Botao from './components/Botao'
-import Navegacao from './components/Navbar'
+import CampoTextoPreenchido from './components/CampoTextoPreenchido'
 
 export default function Home() {
   return (
     <main>
-      <Navegacao />
+
     </main>
   )
 }
