@@ -5,6 +5,7 @@ export default function Home() {
   return (
     <main>
       <Navegacao />
+      <Botao name="próximo" />
     </main>
   )
 }
