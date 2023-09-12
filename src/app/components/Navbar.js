@@ -14,14 +14,18 @@ function Navbar() {
   return (
     <>
       <Navegacao>
-        <Botao src="/menu-aberto1.png" width={30} height={30} style={{position: "relative", bottom: "6vh", left: "10px"}}/>
+      <div style={{display: "flex", justifyContent: "flex-start"}}>
+        <Botao src="/menu-aberto1.png" width={30} height={30} style={{position: "relative"}}/>
+   </div>
+        <div style={{display: "flex", justifyContent: "space-around"}}>
         <Logo
           src="/logo.png"
           width={75}
           height={75}
-          style={{ position: "relative", left: "125px"}}
+          style={{position: "relative", top: -30}}
           alt="logo"
         />
+        </div>
       </Navegacao>
     </>
   );
