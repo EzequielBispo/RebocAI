@@ -9,7 +9,7 @@ import Caminho from "next/image";
 
 export default function Home() {
   return (
-    <section>
+    <section style={{margin: 10}}>
       <div style={{display: "flex", justifyContent: "space-around"}}>
         <Caminho src="/caminho.png" width={100} height={20} style={{marginTop: "10vh", display: "flex"}}/>
       </div>
