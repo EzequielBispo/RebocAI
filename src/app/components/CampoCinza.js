@@ -2,7 +2,7 @@
 
 import styled from "styled-components";
 
-const CampoCinza = styled.div`
+const CampoCinza = styled.input`
   width: 160px;
   height: 28px;
   margin-left: 10px;
@@ -11,7 +11,7 @@ const CampoCinza = styled.div`
 `;
 
 function FunCampoCinza(props) {
-  return <CampoCinza />;
+  return <CampoCinza></CampoCinza>;
 }
 
 export default FunCampoCinza;
