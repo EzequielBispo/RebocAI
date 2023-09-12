@@ -2,6 +2,7 @@
 
 import Titulo from "../src/app/components/Titulo";
 import Texto from "../src/app/components/Texto";
+import Link from "next/link";
 
 function FunIntegrantes() {
   return (
@@ -30,6 +31,7 @@ function FunIntegrantes() {
         Diego Henrique - rm550269
         "
       />
+      <Link href="https://github.com/EzequielBispo/RebocAI">Repositório Github</Link>
     </>
   );
 }

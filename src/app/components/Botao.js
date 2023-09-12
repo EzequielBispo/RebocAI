@@ -1,6 +1,7 @@
 "use client";
 
 import styled from "styled-components";
+import Link from "next/link";
 
 const Button = styled.button`
   width: 140px;
@@ -11,11 +12,11 @@ const Button = styled.button`
   border-radius: 5px;
 `;
 
-function Botao(props) {
+const Botao = (props) => {
   return (
-    <>
+    <Link href={props.href}>
       <Button>{props.name}</Button>
-    </>
+    </Link>
   );
 }
 
