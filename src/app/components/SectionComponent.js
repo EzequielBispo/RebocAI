@@ -1,5 +1,5 @@
 import CampoCinza from "./CampoCinza";
-import CampoTextoPreenchido from "./CampoTextoPreenchido";
+import CampoTextoPreenchido from "./CampoTextoPreenchido.js";
 import Botao from "./Botao";
 import Subtitulo from "./Subtitulo";
 import Texto from "./Texto";
