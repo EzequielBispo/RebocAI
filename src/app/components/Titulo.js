@@ -3,6 +3,8 @@
 import styled from "styled-components";
 
 const Titulo = styled.h1`
+  display: flex;
+  justify-content: space-around;
   font-weight: 700;
   color: #000000;
 `;
