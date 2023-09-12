@@ -44,7 +44,7 @@ export default function Home() {
       <CampoTextoPreenchido name="Número:" />
       <CampoTextoPreenchido name="Complemento:" />
       </div>
-      <div style={{display: "flex", justifyContent: "space-around"}}>
+      <div style={{display: "flex", justifyContent: "space-around", marginTop: 30}}>
       <Botao name="próximo" />
       </div>
     </section>
