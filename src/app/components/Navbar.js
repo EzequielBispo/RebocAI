@@ -3,6 +3,7 @@
 import styled from "styled-components";
 import Logo from "next/image";
 import Botao from "next/image";
+import Link from "next/link";
 
 const Navegacao = styled.nav`
   width: 100%;
@@ -18,13 +19,14 @@ function Navbar() {
         <Botao src="/menu-aberto1.png" width={30} height={30} style={{position: "relative"}}/>
    </div>
         <div style={{display: "flex", justifyContent: "space-around"}}>
-        <Logo
+        <Link href="/"><Logo
           src="/logo.png"
           width={75}
           height={75}
           style={{position: "relative", top: -30}}
           alt="logo"
         />
+        </Link>
         </div>
       </Navegacao>
     </>

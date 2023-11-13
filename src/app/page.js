@@ -1,5 +1,5 @@
 import Navegacao from "./components/Navbar";
-import SectionComponent from "./components/SectionComponent";
+import SectionComponent from "./components/SectionComponentMain";
 
 export default function Home() {
   return (

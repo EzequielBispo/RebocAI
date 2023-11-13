@@ -11,7 +11,7 @@ export default function Home() {
   return (
     <section style={{margin: 10, display: "flex", flexDirection: "column", flexWrap: "wrap", alignContent: "space-around"}}>
       <div style={{display: "flex", justifyContent: "space-around"}}>
-        <Caminho src="/caminho.png" width={100} height={20} style={{marginTop: "10vh", display: "flex"}}/>
+        <Caminho src="/caminho2.png" width={100} height={20} style={{marginTop: "10vh", display: "flex"}}/>
       </div>
       <Titulo name="Abrir ordem de serviço" />
       <Subtitulo name="Informações do Caminhão" />
@@ -45,7 +45,7 @@ export default function Home() {
       <CampoTextoPreenchido name="Complemento:" />
       </div>
       <div style={{display: "flex", justifyContent: "space-around", marginTop: 30}}>
-      <Botao href="/Integrantes" name="próximo" />
+      <Botao href="/DetalhesDoSinistro" name="próximo" />
       </div>
     </section>
   );

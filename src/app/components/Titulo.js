@@ -7,6 +7,7 @@ const Titulo = styled.h1`
   justify-content: space-around;
   font-weight: 700;
   color: #000000;
+  font-family: "Inter", sans-serif;
 `;
 
 function FunTitulo(props) {
